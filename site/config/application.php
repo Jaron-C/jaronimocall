@@ -1,7 +1,7 @@
 <?php
 $root_dir = dirname(__DIR__);
 $webroot_dir = $root_dir . '/web';
-
+define('WP_DEFAULT_THEME', 'sage');
 /**
  * Expose global env() function from oscarotero/env
  */
