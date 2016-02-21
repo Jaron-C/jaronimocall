@@ -20,6 +20,43 @@ var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 
+var cssTasks = function(filename) {
+  return lazypipe()
+    .pipe(function() {
+      return $.if(!enabled.failStyleTask, $.plumber());
+    })
+    .pipe(function() {
+      return $.if(enabled.maps, $.sourcemaps.init());
+    })
+      .pipe(function() {
+        return $.if('*.less', $.less());
+      })
+      .pipe(function() {
+        return $.if('*.scss', $.sass({
+          outputStyle: 'nested', // libsass doesn't support expanded yet
+          includePaths: [
+		   './node_modules/compass-mixins/lib' // Add this bit just here =D
+		  ],
+          precision: 10,
+          errLogToConsole: !enabled.failStyleTask
+        }));
+      })
+      .pipe($.concat, filename)
+      .pipe($.pleeease, {
+          browsers: [
+            'last 2 versions', 'ie 8', 'ie 9', 'android 2.3', 'android 4',
+            'opera 12'
+          ],
+          minifier: argv.production,
+      })
+    .pipe(function() {
+      return $.if(enabled.rev, $.rev());
+    })
+    .pipe(function() {
+      return $.if(enabled.maps, $.sourcemaps.write('.'));
+    })();
+};
+
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
 
