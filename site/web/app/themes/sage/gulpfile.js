@@ -20,43 +20,6 @@ var sass         = require('gulp-sass');
 var sourcemaps   = require('gulp-sourcemaps');
 var uglify       = require('gulp-uglify');
 
-var cssTasks = function(filename) {
-  return lazypipe()
-    .pipe(function() {
-      return $.if(!enabled.failStyleTask, $.plumber());
-    })
-    .pipe(function() {
-      return $.if(enabled.maps, $.sourcemaps.init());
-    })
-      .pipe(function() {
-        return $.if('*.less', $.less());
-      })
-      .pipe(function() {
-        return $.if('*.scss', $.sass({
-          outputStyle: 'nested', // libsass doesn't support expanded yet
-          includePaths: [
-		   './node_modules/compass-mixins/lib' // Add this bit just here =D
-		  ],
-          precision: 10,
-          errLogToConsole: !enabled.failStyleTask
-        }));
-      })
-      .pipe($.concat, filename)
-      .pipe($.pleeease, {
-          browsers: [
-            'last 2 versions', 'ie 8', 'ie 9', 'android 2.3', 'android 4',
-            'opera 12'
-          ],
-          minifier: argv.production,
-      })
-    .pipe(function() {
-      return $.if(enabled.rev, $.rev());
-    })
-    .pipe(function() {
-      return $.if(enabled.maps, $.sourcemaps.write('.'));
-    })();
-};
-
 // See https://github.com/austinpray/asset-builder
 var manifest = require('asset-builder')('./assets/manifest.json');
 
@@ -114,43 +77,41 @@ var revManifest = path.dist + 'assets.json';
 //   .pipe(cssTasks('main.css')
 //   .pipe(gulp.dest(path.dist + 'styles'))
 // ```
+
 var cssTasks = function(filename) {
   return lazypipe()
     .pipe(function() {
-      return gulpif(!enabled.failStyleTask, plumber());
+      return $.if(!enabled.failStyleTask, $.plumber());
     })
     .pipe(function() {
-      return gulpif(enabled.maps, sourcemaps.init());
+      return $.if(enabled.maps, $.sourcemaps.init());
+    })
+      .pipe(function() {
+        return $.if('*.less', $.less());
+      })
+      .pipe(function() {
+        return $.if('*.scss', $.sass({
+          outputStyle: 'nested', // libsass doesn't support expanded yet
+          includePaths: [
+		   './node_modules/compass-mixins/lib' // Add this bit just here =D
+		  ],
+          precision: 10,
+          errLogToConsole: !enabled.failStyleTask
+        }));
+      })
+      .pipe($.concat, filename)
+      .pipe($.pleeease, {
+          browsers: [
+            'last 2 versions', 'ie 8', 'ie 9', 'android 2.3', 'android 4',
+            'opera 12'
+          ],
+          minifier: argv.production,
+      })
+    .pipe(function() {
+      return $.if(enabled.rev, $.rev());
     })
     .pipe(function() {
-      return gulpif('*.less', less());
-    })
-    .pipe(function() {
-      return gulpif('*.scss', sass({
-        outputStyle: 'nested', // libsass doesn't support expanded yet
-        precision: 10,
-        includePaths: ['.'],
-        errLogToConsole: !enabled.failStyleTask
-      }));
-    })
-    .pipe(concat, filename)
-    .pipe(autoprefixer, {
-      browsers: [
-        'last 2 versions',
-        'android 4',
-        'opera 12'
-      ]
-    })
-    .pipe(cssNano, {
-      safe: true
-    })
-    .pipe(function() {
-      return gulpif(enabled.rev, rev());
-    })
-    .pipe(function() {
-      return gulpif(enabled.maps, sourcemaps.write('.', {
-        sourceRoot: 'assets/styles/'
-      }));
+      return $.if(enabled.maps, $.sourcemaps.write('.'));
     })();
 };
 
