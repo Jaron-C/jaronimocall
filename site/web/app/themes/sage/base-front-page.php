@@ -16,8 +16,12 @@ use Roots\Sage\Wrapper;
     <![endif]-->
     <?php
       do_action('get_header');
-      get_template_part('templates/header');
+      get_template_part('templates/nav');
     ?>
+    <?php get_template_part('templates/hero'); ?>
+
+    <?php get_template_part('templates/section1'); ?>
+
     <div class="wrap container" role="document">
       <div class="content row">
         <main class="main">
