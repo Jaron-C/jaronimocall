@@ -1,6 +1,4 @@
-<h3>Motion Graphics</h3>
-<h3>and</h3>
-<h3>Custom Website Design</h3>
+<h3>Motion Graphics | Website Design</h3>
 
 <!-- Featured Category -->
 <div class="wrap container">
