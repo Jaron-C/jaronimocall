@@ -123,7 +123,7 @@ $input: #fffedf;
 // It should essentially output the below LESS, but with just this one line
 
 // SCSS Input:
-@include font-face("Proxima Nova", ../../../fonts/ProximaNova-Light);
+// @include font-face("Proxima Nova", ../../../fonts/ProximaNova-Light);
 // CSS Output:
 /* @font-face {
     font-family: "Proxima Nova";
