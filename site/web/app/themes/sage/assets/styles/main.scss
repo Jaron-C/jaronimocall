@@ -25,7 +25,7 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-@import "common/_jackalope";
+// @import "common/_jackalope";
 
 @import "common/_global";
 @import "components/_buttons";
@@ -33,9 +33,6 @@
 @import "components/_forms";
 @import "components/_grid";
 @import "components/_wp-classes";
-@import "components/_bs-classes";
-@import "layouts/_home";
-@import "layouts/_12mdp";
 @import "layouts/_header";
 @import "layouts/_sidebar";
 @import "layouts/_footer";
@@ -45,5 +42,5 @@
 
 // Libraries
 
-@import '../../bower_components/bourbon';
-@import “compass”;
+// @import '../../bower_components/bourbon';
+// @import “compass”;
