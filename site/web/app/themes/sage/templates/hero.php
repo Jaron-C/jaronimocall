@@ -6,3 +6,5 @@
 
 <h1>Jaronimo Call</h1>
 <h3>Motion Graphics | Website Design</h3>
+
+<svg><?php get_template_part( 'assets/svg/inline', 'findme-logos.svg' ); ?></svg>
