@@ -1,7 +1,7 @@
-<h3>Motion Graphics | Website Design</h3>
+<!--<h3>Motion Graphics | Website Design</h3>--!>
 
 <!-- Featured Category -->
-<div class="wrap container">
+<!--<div class="wrap container">
 <div class="row">
 <?php query_posts('category_name=featured&showposts=3'); while (have_posts()) : the_post();?>
 <div class="col-sm-4 col-xs-12">
@@ -14,5 +14,5 @@
 </div>
 <?php endwhile; ?>
 </div>
-</div>
+</div>--!>
 <!-- //Featured Category -->
