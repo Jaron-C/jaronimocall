@@ -10,5 +10,5 @@
 </div>
 
 <div class="my-brands text-center">
-<svg class="brand-logos" width="340" height="100"><?php get_template_part( 'assets/svg/inline', 'findme-logos.svg' ); ?></svg>
+<svg width="340" height="100"><?php get_template_part( 'assets/svg/inline', 'findme-logos.svg' ); ?></svg>
 </div>
