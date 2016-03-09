@@ -6,5 +6,4 @@
 
 <div class="name text-center">
   <h1>JARONIMO CALL</h1>
-  <h3>Motion Graphics | Website Design</h3>
 </div>
