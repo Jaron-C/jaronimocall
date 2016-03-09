@@ -5,7 +5,7 @@
 </footer>
 
 <div id="footer">
-  <div class="text-center">
-    <p>Made with love by <strong>Jaron Call</stong></p>
+  <div class="credit text-center">
+    <p>Created with love by <strong>Jaron Call</stong></p>
   </div>
 </div>
