@@ -235,42 +235,42 @@ p {
 // ------------/
 
 // Un-comment this selector enable vertical centering
-// .vcenter {
-//     display: inline-block;
-//     vertical-align: middle;
-//     float: none;
-// }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 // Un-comment these selectors to enable verticle align
-// .table {
-//     width: 100%;
-//     height: 400px;
-//     display: table;
-// }
-// /* .table-cell {
-//     display: table-cell;
-//     vertical-align: middle;
-//     text-align: center;
-// }
+.table {
+    width: 100%;
+    height: 400px;
+    display: table;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
 
 // Un-comment this to use the quick padding classes
-// .top-pad-lg() {
-//   padding-top: 62px;
-//   @media (min-width: $screen-md-min) {
-//     padding-top: 132px;
-//   }
-// }
-//
-// .top-pad-md() {
-//   padding-top: 46px;
-//   @media (min-width: $screen-md-min) {
-//     padding-top: 86px;
-//   }
-// }
-//
-// .bottom-pad($pad: 24px) {
-//   padding-bottom: $pad;
-// }
+.p-t-lg() {
+  padding-top: 62px;
+  @media (min-width: $screen-md-min) {
+    padding-top: 132px;
+  }
+}
+
+.t-p-md() {
+  padding-top: 46px;
+  @media (min-width: $screen-md-min) {
+    padding-top: 86px;
+  }
+}
+
+.bottom-pad($pad: 24px) {
+  padding-bottom: $pad;
+}
 
 // Un-comment this to use rounded-images
 // .border-radius ($radius: 6px) {
