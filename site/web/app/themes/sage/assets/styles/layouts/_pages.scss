@@ -9,22 +9,21 @@
 }
 
 /* Form */
-.form-inline {
+#contact {
   margin-top: 40px;
 }
 
-.form-group-1 {
-  margin-top: 5px;
-}
 
-.form-group-2 {
-  margin-top: 10px;
-}
-
-.label {
+.form-group-name {
   font-family: Roboto-Thin;
-  color: #353535;
-  padding-right: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.form-group-address {
+  font-family: Roboto-Thin;
+  margin-top: 10px;
+  border-radius: 5px;
 }
 
 /* button */
@@ -33,7 +32,7 @@
 	background-color: #6da2a3;
 	border: 1px solid mix(black, #fff, 25%);
 	border-radius: 5px;
-	padding: .50em .50em;
+	padding: .50em 3.1em;
   font-family: Roboto-Thin;
   color: #fff;
 
