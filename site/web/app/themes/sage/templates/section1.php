@@ -4,9 +4,11 @@
   </div>
 </div>
 
+<div class="CTA text-center">
+<button type="button" class="btn-default btn-lg center-block">Grab A Quote!</button>
+</div>
 
-
-  <div class="companies text-center">
-    <svg class="companies" width="334" height="78"><?php get_template_part( 'assets/svg/inline', 'companies.svg' ); ?></svg>
+  <div class="companies">
+    <svg class="companies" width="336" height="78"><?php get_template_part( 'assets/svg/inline', 'companies.svg' ); ?></svg>
   </div>
 </div>

@@ -1,5 +1,5 @@
 #section1 {
-  margin-top: 30px;
+  margin-top: -30px;
   .st0 {
     fill:#6da2a3
   }
@@ -10,4 +10,17 @@
 
 .companies {
   margin-top: 30px;
+}
+
+.btn-default {
+	background-color: #353535;
+	border: 1px solid mix(black, #fff, 25%);
+	border-radius: 5px;
+	padding: .25em .5em;
+
+	&:hover {
+		cursor: pointer;
+		background-color: mix(black, #fff, 15%);
+		border-color: mix(black, #b4d455, 40%);
+	}
 }
