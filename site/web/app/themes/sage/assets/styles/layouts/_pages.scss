@@ -9,18 +9,24 @@
 }
 
 .companies {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
-.btn-default {
-	background-color: #353535;
+.col-md-4 {
+  margin-top: 80px;
+}
+
+
+.btn {
+	background-color: #6da2a3;
 	border: 1px solid mix(black, #fff, 25%);
 	border-radius: 5px;
-	padding: .25em .5em;
+	padding: .50em .50em;
+  font-family: Roboto-Thin;
 
-	&:hover {
+&:hover {
 		cursor: pointer;
-		background-color: mix(black, #fff, 15%);
-		border-color: mix(black, #b4d455, 40%);
-	}
-}
+		background-color: mix(black, #4f1f59, 15%);
+		border-color: mix(black, #353535, 40%);
+    }
+  }
