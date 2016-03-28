@@ -7,7 +7,7 @@
     fill: #353535;
   }
 }
-
+/* The Form is on both section1 & page-contact */
 /* Form */
 .cta {
   color: #353535;
@@ -20,14 +20,14 @@
 
 /* Name */
 .form-group-name {
-  font-family: Roboto-Thin;
+  font-family: Roboto-Italic;
   margin-top: 10px;
   border-radius: 5px;
 }
 
 /* Address */
 .form-group-address {
-  font-family: Roboto-Thin;
+  font-family: Roboto-Italic;
   margin-top: 10px;
   border-radius: 5px;
 }
@@ -39,7 +39,7 @@
 	border: 1px solid mix(black, #fff, 25%);
 	border-radius: 5px;
 	padding: .50em 3.1em;
-  font-family: Roboto-Thin;
+  font-family: Roboto-Regular;
   color: #fff;
 
 &:hover {
@@ -50,6 +50,7 @@
     }
   }
 
+/* The logos are only on section1 */
 /* logos */
 .companies {
     margin-top: 50px;
