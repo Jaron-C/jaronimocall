@@ -7,7 +7,6 @@
 <div class="cta text-center">
 <h4>Looking for an animation?!</h4>
 <h4>Let's chat!</h4>
-</div>
 
 <div id="contact">
 <form class="form-inline text-center">
@@ -20,4 +19,5 @@
   </div>
   <button type="submit" class="btn btn-default">Grab A Quote!</button>
 </form>
+</div>
 </div>
