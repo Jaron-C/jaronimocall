@@ -17,7 +17,7 @@
 <?php the_post_thumbnail( 'featured-img-thumb' ); ?>
 <h3><a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 <?php get_template_part('templates/entry-meta'); ?>
-<?php the_excerpt(); ?>
+<!--<?php the_excerpt(); ?> (excerpts from the post)-->
 </div>
 </div>
 <?php endwhile; ?>
