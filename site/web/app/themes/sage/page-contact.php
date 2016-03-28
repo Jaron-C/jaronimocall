@@ -1,8 +1,7 @@
-<div id="section1">
-  <div class="about-list text-center">
-    <svg class="about-list" width="700" height="266"><?php get_template_part( 'assets/svg/inline', 'about-list.svg' ); ?></svg>
-  </div>
-</div>
+<?php while (have_posts()) : the_post(); ?>
+  <?php get_template_part('templates/page', 'header'); ?>
+  <?php get_template_part('templates/content', 'page'); ?>
+<?php endwhile; ?>
 
 <div class="cta text-center">
 <h4>Looking for an animation?!</h4>
@@ -20,10 +19,4 @@
   </div>
   <button type="submit" class="btn btn-default">Grab A Quote!</button>
 </form>
-</div>
-
-<div class="brands text-center">
-  <div class="companies center-block">
-    <svg class="companies" width="336" height="78"><?php get_template_part( 'assets/svg/inline', 'companies.svg' ); ?></svg>
-  </div>
 </div>

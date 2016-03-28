@@ -11,7 +11,7 @@
 <!-- Featured Category -->
 <div class="wrap container">
 <div class="row">
-<?php query_posts('category_name=featured&showposts=2'); while (have_posts()) : the_post();?>
+<?php query_posts('category_name=featured&showposts=12'); while (have_posts()) : the_post();?>
 <div class="col-xs-12">
 <div class="thumbnail">
 <?php the_post_thumbnail( 'featured-img-thumb' ); ?>
