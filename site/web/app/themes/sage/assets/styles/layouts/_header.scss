@@ -5,7 +5,8 @@
     fill: #33220b}
   }
   h1 {
-    
+    margin-top: 10px;
+    font-family: Roboto-Thin;
   }
 }
 
@@ -16,4 +17,8 @@
 .navbar-default{
   background-color: #fff;
   border: none;
+}
+
+.navbar-brand {
+  float: left;
 }

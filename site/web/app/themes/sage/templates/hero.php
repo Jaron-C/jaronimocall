@@ -1,5 +1,5 @@
 <div class="container" id="hero">
-  <div class="text-center">
+  <div class="logo text-center">
     <svg class="hair-logo" width="321" height="426"><?php get_template_part( 'assets/svg/inline', 'hair-logo.svg' ); ?></svg>
   </div>
   <div class="name text-center">
