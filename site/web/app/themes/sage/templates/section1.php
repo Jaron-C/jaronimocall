@@ -6,7 +6,7 @@
 
 
 <div class="cta text-center">
-<h4>Looking for an animation?!</h4>
+<h4>Looking for an animation?</h4>
 <h4>Let's chat!</h4>
 
 <div id="contact">
