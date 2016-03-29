@@ -24,6 +24,6 @@
 
 <div class="brands text-center">
   <div class="companies center-block">
-    <svg class="companies" width="336" height="78"><?php get_template_part( 'assets/svg/inline', 'companies.svg' ); ?></svg>
+    <svg class="companies" width="236" height="68"><?php get_template_part( 'assets/svg/inline', 'companies.svg' ); ?></svg>
   </div>
 </div>
