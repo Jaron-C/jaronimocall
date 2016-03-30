@@ -6,6 +6,15 @@
   .st1{
     fill: #353535;
   }
+  .about-list {
+    svg {
+      margin: auto;
+      padding: 0 24px;
+      @media (min-width: $screen-sm-min) {
+        padding: 0;
+      }
+    }
+  }
 }
 /* The Form is on section1, About, Projects and Contact pages */
 /* Form */
