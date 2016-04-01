@@ -2,3 +2,13 @@
   <?php get_template_part('templates/page', 'header'); ?>
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
+
+<div class="category-1">
+  <h2>Motion Graphics</h2>
+<iframe src="//fast.wistia.net/embed/playlists/zl5tr460h0?media_0_0%5BautoPlay%5D=false&media_0_0%5BcontrolsVisibleOnLoad%5D=true&plugin%5Bsocialbar-v1%5D%5Bbuttons%5D=twitter-linkedIn-facebook&theme=tab&version=v1&videoOptions%5BautoPlay%5D=true&videoOptions%5BplayerColor%5D=6da2a3&videoOptions%5BvideoHeight%5D=360&videoOptions%5BvideoWidth%5D=640&videoOptions%5BvolumeControl%5D=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_playlist" name="wistia_playlist" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="386"></iframe>
+</div>
+
+<div class="category-2">
+  <h2>iPhone Jams</h2>
+<iframe src="//fast.wistia.net/embed/playlists/xb0cjz615s?media_0_0%5BautoPlay%5D=false&media_0_0%5BcontrolsVisibleOnLoad%5D=true&plugin%5Bsocialbar-v1%5D%5Bbuttons%5D=twitter-linkedIn-facebook&theme=tab&version=v1&videoOptions%5BautoPlay%5D=true&videoOptions%5BvideoHeight%5D=360&videoOptions%5BvideoWidth%5D=640&videoOptions%5BvolumeControl%5D=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_playlist" name="wistia_playlist" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="386"></iframe>
+</div>
