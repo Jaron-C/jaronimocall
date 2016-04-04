@@ -87,9 +87,20 @@ function display_sidebar() {
     is_front_page(),
     is_page_template('template-custom.php'),
     is_page(),
+    is_single(),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
+
+// Sidebar filter for Blog Page
+  add_filter('sage/display_sidebar', __NAMESPACE__ . 'sage_sidebar_on_special_page');
+
+function sage_sidebar_on_special_page($sidebar) {
+  if (is_page('special-page')) {
+    return true;
+  }
+  return $sidebar;
+  }
 }
 
 /**
