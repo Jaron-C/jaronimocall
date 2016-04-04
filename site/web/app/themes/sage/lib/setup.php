@@ -92,11 +92,11 @@ function display_sidebar() {
 
   return apply_filters('sage/display_sidebar', $display);
 
-// Sidebar filter for Blog Page
+// Sidebar display filter for Blog Page
   add_filter('sage/display_sidebar', __NAMESPACE__ . 'sage_sidebar_on_special_page');
 
 function sage_sidebar_on_special_page($sidebar) {
-  if (is_page('special-page')) {
+  if (is_page('blog-page')) {
     return true;
   }
   return $sidebar;
