@@ -17,6 +17,22 @@
   }
 }
 
+/*  About Page */
+#rundown {
+  .st0 {
+    fill:#353535
+  }
+  .about-rundown {
+    margin-left: 80px;
+  }
+  svg {
+    margin: auto;
+    padding: 0 24px;
+    @media (min-width: $screen-sm-min) {
+      padding: 0;
+  }
+}
+
 /* Project Page (Videos) */
 .video {
   margin-top: 50px;

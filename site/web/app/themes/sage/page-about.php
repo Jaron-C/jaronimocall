@@ -5,6 +5,6 @@
 
 <div id="rundown">
   <div class="about-rundown text-center">
-    <svg class="about-rundown img-responsive" width="605" height="630"><?php get_template_part( 'assets/svg/inline', 'about-rundown.svg' ); ?></svg>
+    <svg class="about-rundown img-responsive" width="705" height="726"><?php get_template_part( 'assets/svg/inline', 'about-rundown.svg' ); ?></svg>
   </div>
 </div>
