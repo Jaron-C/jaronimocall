@@ -2,27 +2,10 @@
   <div class="about-list text-center">
     <svg class="about-list img-responsive" width="600" height="166"><?php get_template_part( 'assets/svg/inline', 'about-list.svg' ); ?></svg>
   </div>
-</div>
-
-<div class="video text-center">
-  <p>Take a look!</p>
-<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_7bwtuhsl9j popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:84px;width:150px">&nbsp;</span>
-</div>
-
-<div class="cta text-center">
-<h4>For project inquiries, please fill out the form below!</h4>
-&nbsp;
-
-<div id="contact">
-<form class="form-inline text-center">
-  <div class="form-group-name">
-    <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
+  <div class="video text-center">
+    <p>Take a look!</p>
+  <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_7bwtuhsl9j popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:84px;width:150px">&nbsp;</span>
   </div>
+</div>
 
-  <div class="form-group-address">
-    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Address">
-  </div>
-  <button type="submit" class="btn btn-default">Grab A Quote!</button>
-</form>
-</div>
-</div>
+<!-- Place Gravity Form Here -->

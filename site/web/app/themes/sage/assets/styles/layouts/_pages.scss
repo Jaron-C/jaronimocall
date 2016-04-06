@@ -15,6 +15,9 @@
       }
     }
   }
+  .video {
+    margin-top: 50px;
+  }
 }
 
 /*  About Page */
@@ -60,44 +63,6 @@
 }
 
 /* The Form is on section1, Blog and Contact page */
-/* Form */
-.cta {
-  color: #353535;
-  margin-top: 50px;
-  font-family: Roboto-Thin;
-}
-
-/* Name */
-.form-group-name {
-  font-family: Roboto-Italic;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-/* Address */
-.form-group-address {
-  font-family: Roboto-Italic;
-  margin-top: 10px;
-  border-radius: 5px;
-}
-
-/* button */
-.btn {
-  margin-top: 10px;
-	background-color: #6da2a3;
-	border: 1px solid mix(black, #fff, 25%);
-	border-radius: 5px;
-	padding: .50em 3.1em;
-  font-family: Roboto-Regular;
-  color: #fff;
-
-&:hover {
-    color: #fff;
-		cursor: pointer;
-		background-color: mix(black, #4f1f59, 15%);
-		border-color: mix(black, #353535, 40%);
-    }
-  }
 
 /* The logos are only on section1 */
 /* logos */
