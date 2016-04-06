@@ -26,8 +26,8 @@
 <!-- //Featured Category -->
 
 <div class="cta text-center">
-<h4>Looking for an animation?</h4>
-<h4>Let's chat!</h4>
+<h4>For project inquiries, please fill out the form below!</h4>
+&nbsp;
 
 <div id="contact">
 <form class="form-inline text-center">
