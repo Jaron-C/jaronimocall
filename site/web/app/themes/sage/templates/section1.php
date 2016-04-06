@@ -4,7 +4,7 @@
   </div>
   <div class="video text-center">
     <p>Take a look!</p>
-  <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_7bwtuhsl9j popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:84px;width:150px">&nbsp;</span>
+  <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script><span class="wistia_embed wistia_async_7bwtuhsl9j popover=true popoverAnimateThumbnail=true" style="display:inline-block;height:94px;width:160px">&nbsp;</span>
   </div>
 </div>
 
