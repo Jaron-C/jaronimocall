@@ -40,7 +40,7 @@
     color: #353535;
   }
 }
-
+}
 /* Project Page (Videos) */
 .video {
   margin-top: 50px;
@@ -64,13 +64,6 @@
 
 /* The Form is on section1, Blog and Contact page */
 
-/* The logos are only on section1 */
-/* logos */
-.companies {
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
-
 /* Blog Page */
 .thumbnail {
   margin-bottom: 0px;
@@ -81,4 +74,10 @@
 .p {
   display: none;
 }
+
+/* The logos are only on Contact Page */
+/* logos */
+.companies {
+    margin-top: 50px;
+    margin-bottom: 0px;
 }

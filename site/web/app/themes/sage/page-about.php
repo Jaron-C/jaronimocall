@@ -3,7 +3,7 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 
-
+<!-- Place "personal.jpg" Here -->
 
 <div class="about-copy text-center">
   <p style="text-align: center;font-size: 25px;">Welcome to <strong>jaronimocall.com</strong></p>
