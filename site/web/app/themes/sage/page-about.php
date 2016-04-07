@@ -7,7 +7,8 @@
 
 <!-- Text -->
 <div class="about-copy text-center">
-  <p style="text-align: center;font-size: 30px;">Welcome to <strong>jaronimocall.com</strong></p>
+  <p style="text-align: center;font-size: 30px;">Welcome to</p>
+  <p style="text-align: center;font-size: 30px;" class="jc.com"><strong>JaronimoCall.com</strong></p>
   &nbsp;
   <div>
     <div style="text-align: center;">I am an independent Motion Graphics Artist and Website Designer for <strong>Jackalope Media</strong>.</div>
