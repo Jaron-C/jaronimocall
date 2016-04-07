@@ -5,9 +5,9 @@
 
 <!-- Place "personal.jpg" Here -->
 
-<!-- Weclome  Text -->
+<!-- Text -->
 <div class="about-copy text-center">
-  <p style="text-align: center;font-size: 25px;">Welcome to <strong>jaronimocall.com</strong></p>
+  <p style="text-align: center;font-size: 30px;">Welcome to <strong>jaronimocall.com</strong></p>
   &nbsp;
   <div>
     <div style="text-align: center;">I am an independent Motion Graphics Artist and Website Designer for <strong>Jackalope Media</strong>.</div>
@@ -18,6 +18,7 @@
   </div>
 </div>
   &nbsp;
+
 <div class="about-copy-2">
   <div style="text-align: center;">Listed below is a quick rundown</div>
   <div style="text-align: center;">of what you can expect from this website!</div>

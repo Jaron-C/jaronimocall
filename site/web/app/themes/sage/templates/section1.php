@@ -8,4 +8,4 @@
   </div>
 </div>
 
-<!-- Place Gravity Form Here -->
+<!-- (place GF here) -->

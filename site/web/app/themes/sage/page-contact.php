@@ -3,7 +3,7 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 
-<!-- Place Gravity Form Here -->
+<!-- (place GF here) -->
 
 <div class="brands text-center">
   <div class="companies center-block">
