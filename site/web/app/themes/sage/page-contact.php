@@ -1,8 +1,14 @@
+<!-- Contact Information -->
+<div class=" container text-center">
+  <h2 class="contact">Contact Information</h2>
+</div>
+
 <!--<?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/page', 'header'); ?>-->
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 
+<!-- GF Form Text -->
 <div class="container text-center">
   <h4 class="inquire-text">For project inquiries, please fill out the form below!</h4>
 <!-- (place GF here) -->
