@@ -3,7 +3,11 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>
 
+<div class="container text-center">
+  <h4 class="inquire-text">For project inquiries, please fill out the form below!</h4>
 <!-- (place GF here) -->
+</div>
+
 
 <div class="brands text-center">
   <div class="companies center-block">
