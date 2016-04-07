@@ -19,7 +19,7 @@
 <!-- Top Text -->
 <div class="about-copy text-center">
 
-  <div style="text-align: center;">I am an independent Motion Graphics Artist and Website Designer for <strong>Jackalope Media</strong>.</div>
+  <div style="text-align: center;">I am an independent <strong>Motion Graphics Artist</strong> and <strong>Website Designer</strong> for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
     <div>Along side my design, I also run a local Utah Organization called <strong>Brake The Cycle</strong>,</div>
     <div>which is in support of suicide awareness.</div>
@@ -28,8 +28,8 @@
 
 <!-- Bottom Text -->
 <div class="about-copy-2">
-  <div style="text-align: center;">Listed below is a quick rundown</div>
-  <div style="text-align: center;">of what you can expect from this website!</div>
+  <div style="text-align: center;">Below is a quick rundown of what</div>
+  <div style="text-align: center;">you will find on this website!</div>
   <div style="text-align: center;"></div>
 </div>
 
