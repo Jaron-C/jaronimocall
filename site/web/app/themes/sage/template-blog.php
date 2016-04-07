@@ -9,8 +9,8 @@
 <?php endwhile; ?>-->
 
 <div class="container text-center">
-  <h4 class="intro">Please feel free to leave comments or contact me</h4>
-  <h4>if you have any questions or concerns!</h4>
+  <h4 class="intro">Please feel free to leave comments or shoot me</h4>
+  <h4>an email if you'd like to get in contact!</h4>
 </div>
 
 
