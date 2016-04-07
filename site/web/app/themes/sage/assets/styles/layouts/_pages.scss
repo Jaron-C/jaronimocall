@@ -1,3 +1,4 @@
+/* Contains the about-list & video */
 #section1 {
   margin-top: 5px;
   .st0 {
@@ -21,27 +22,41 @@
 }
 
 /*  About Page */
-#rundown {
+
+/* Text */
+  .about-copy {
+  line-height: 1.8em;
+  font-size: 16px;
+  font-family: Roboto-Regular;
+  color: #353535;
+  }
+
+  .about-copy-2 {
+    line-height: 1.8em;
+    font-size: 25px;
+    font-family: Roboto-Thin;
+    color: #353535;
+  }
+
+/* Rundown svg */
   .st0 {
     fill:#353535
   }
+
   .about-rundown {
     margin-left: 80px;
   }
+
   svg {
     margin: auto;
     padding: 0 24px;
     @media (min-width: $screen-sm-min) {
       padding: 0;
   }
-  .about-copy {
-    line-height: 2em;
-    font-family: Roboto-Regular;
-    color: #353535;
-  }
 }
-}
-/* Project Page (Videos) */
+
+/* Project Page */
+/* Videos */
 .video {
   margin-top: 50px;
 }
@@ -62,8 +77,6 @@
   margin-top: 20px;
 }
 
-/* The Form is on section1, Blog and Contact page */
-
 /* Blog Page */
 .thumbnail {
   margin-bottom: 0px;
@@ -75,9 +88,14 @@
   display: none;
 }
 
-/* The logos are only on Contact Page */
-/* logos */
+/* Contact Page */
+/* BTC/Jack Logo */
 .companies {
     margin-top: 50px;
     margin-bottom: 0px;
 }
+
+/* Gravity Forms */
+/* GF's are on section1, Blog and Contact page */
+
+/* Add GF Here */
