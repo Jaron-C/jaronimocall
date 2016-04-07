@@ -40,3 +40,5 @@
     <svg class="about-rundown img-responsive" width="705" height="726"><?php get_template_part( 'assets/svg/inline', 'about-rundown.svg' ); ?></svg>
 </div>
 </div>
+
+<div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out form on Contact Page</h4></div>
