@@ -8,6 +8,12 @@
   <?php get_template_part('templates/page', 'header'); ?>
 <?php endwhile; ?>-->
 
+<div class="container text-center">
+  <h4 class="intro">Please feel free to leave comments or contact me</h4>
+  <h4>if you have any questions or concerns!</h4>
+</div>
+
+
 <!-- Featured Category -->
 <div class="wrap container">
 <div class="row">

@@ -1,7 +1,7 @@
-<?php while (have_posts()) : the_post(); ?>
+<!--<?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/page', 'header'); ?>
   <?php get_template_part('templates/content', 'page'); ?>
-<?php endwhile; ?>
+<?php endwhile; ?>-->
 
 <!-- Place "personal.jpg" Here -->
 <div class="container text-center">
@@ -32,7 +32,7 @@
   <div style="text-align: center;">of what you can expect from this website!</div>
   <div style="text-align: center;"></div>
 </div>
-  
+
 
 <!-- about-rundown svg -->
 <div class="container text-center">
