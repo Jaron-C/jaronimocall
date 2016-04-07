@@ -4,22 +4,25 @@
 <?php endwhile; ?>
 
 <!-- Place "personal.jpg" Here -->
-
-<!-- Text -->
-<div class="about-copy text-center">
-  <p style="text-align: center;font-size: 30px;">Welcome to</p>
-  <p style="text-align: center;font-size: 30px;" class="jc.com"><strong>JaronimoCall.com</strong></p>
-  &nbsp;
-  <div>
-    <div style="text-align: center;">I am an independent Motion Graphics Artist and Website Designer for <strong>Jackalope Media</strong>.</div>
+<div class="container text-center">
+  <div class="photo">
+    <img src="<?=get_stylesheet_directory_uri();?>/dist/images/personal.jpg">
   </div>
+  <div style="text-align: center;"><strong>Jaron Call</strong></div>
+  <div style="text-align: center;">Creator of jaronimocall.com</div>
+</div>
+
+<!-- Top Text -->
+<div class="about-copy text-center">
+  &nbsp;
+  <div style="text-align: center;">I am an independent Motion Graphics Artist and Website Designer for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
     <div>Along side my design, I also run a local Utah Organization called <strong>Brake The Cycle</strong>,</div>
     <div>which is in support of suicide awareness.</div>
   </div>
 </div>
   &nbsp;
-
+<!-- Bottom Text -->
 <div class="about-copy-2">
   <div style="text-align: center;">Listed below is a quick rundown</div>
   <div style="text-align: center;">of what you can expect from this website!</div>
