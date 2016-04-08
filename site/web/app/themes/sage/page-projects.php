@@ -4,6 +4,7 @@
 <?php endwhile; ?>-->
 
 <div class="row">
+<!-- Left Side -->
   <div class="col-md-6">
     <div class="category-1 text-center">
       <h3>Motion Graphics</h3>
@@ -16,6 +17,7 @@
     </div>
   </div>
 
+<!-- Left Side -->
   <div class="col-md-6">
     <div class="category-3 text-center">
       <h3>iPhone Jams</h3>
