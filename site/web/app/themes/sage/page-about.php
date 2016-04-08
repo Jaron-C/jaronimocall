@@ -19,10 +19,10 @@
 <!-- Top Text -->
 <div class="about-copy text-center">
 
-  <div style="text-align: center;">I am an independent <strong>Motion Graphics Artist</strong> and <strong>Website Designer</strong> for <strong>Jackalope Media</strong>.</div>
+  <div style="text-align: center;">I am a <strong>Motion Graphics</strong> and <strong>Website Designer</strong> for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
-    <div>Along side my design, I also run a local Utah Organization called <strong>Brake The Cycle</strong>,</div>
-    <div>which is in support of suicide awareness.</div>
+    <div>I also run a local Utah Organization called <strong>Brake The Cycle</strong>,</div>
+    <div>which is in support of suicide prevention.</div>
   </div>
 </div>
 
