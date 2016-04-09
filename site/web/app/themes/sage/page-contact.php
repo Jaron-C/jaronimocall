@@ -23,6 +23,9 @@
   </div>
 </div>
 
+<div class="hours text-center">
+  <p>Available 9am-6pm on weekdays</p>
+
 <!-- GF Form Text -->
 <div class="row text-center">
   <h4 class="col-xs-12">For project inquiries, please fill out the form below!</h4>
