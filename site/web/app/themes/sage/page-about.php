@@ -3,7 +3,7 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>-->
 
-<!-- Place "personal.jpg" Here -->
+<!-- personal.jpg -->
 <div class="container text-center">
   <div class="photo">
     <img src="<?=get_stylesheet_directory_uri();?>/dist/images/personal.jpg">
