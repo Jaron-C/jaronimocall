@@ -11,13 +11,13 @@
 <!-- Social Media -->
 <div class="contact-info">
 <div class="row text-center">
-  <div class="col-md-6"><h3 style="text-align: center; 16dpx;">Social Media</h3>
+  <div class="col-xs-12 col-md-6"><h3 style="text-align: center; 16dpx;">Social Media</h3>
     &nbsp;
     <p style="text-center"><strong>Instagram: </strong><em>@jaroninthesis</em></p>
     <p style="text-center"><strong>Twitter: </strong><em>@JaronimoCall</em>
   </div>
 <!-- Work Contact -->
-  <div class="col-md-6"><h3 style="text-align: center; 16px;">Work Contact</h3>
+  <div class="col-xs-12 col-md-6"><h3 style="text-align: center; 16px;">Work Contact</h3>
     &nbsp;
     <p style="text-style"><strong>Email: </strong><em>jaroninthesis@gmail.com</em></p>
     <p style="text-style"><strong>Phone: </strong><em>(801) 540-0648</em></p>
