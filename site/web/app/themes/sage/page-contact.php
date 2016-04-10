@@ -9,6 +9,7 @@
 </div>-->
 
 <!-- Social Media -->
+<div class="contact-info">
 <div class="row text-center">
   <div class="col-md-6"><h3 style="text-align: center; 16dpx;">Social Media</h3>
     &nbsp;
@@ -22,7 +23,7 @@
     <p style="text-style"><strong>Phone: </strong><em>(801) 540-0648</em></p>
   </div>
 </div>
-
+</div>
 <div class="hours text-center">
   <p>Available 9am-6pm on weekdays</p>
 
