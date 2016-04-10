@@ -4,9 +4,9 @@
 <?php endwhile; ?>-->
 
 <!-- Contact Information -->
-<div class=" row text-center">
+<!--<div class=" row text-center">
   <h2 class="col-xs-12">Contact Information</h2>
-</div>
+</div>-->
 
 <!-- Social Media -->
 <div class="row text-center">
