@@ -20,7 +20,7 @@
 <!-- Top Text-->
 
 <div class="about-copy text-center">
-  <div style="text-align: center;"><strong>Motion Graphics</strong> and <strong>Website Design.</strong></div>
+  <div style="text-align: center;"><strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
   <div style="text-align: center;">Creative for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
    <div>Co-Founder of local Utah Organization <strong>Brake The Cycle</strong>,</div>
@@ -30,9 +30,7 @@
 
 <!-- Bottom Text -->
 <div class="about-copy-2">
-  <div style="text-align: center;">Below is a quick rundown of what</div>
-  <div style="text-align: center;">you will find on this website!</div>
-  <div style="text-align: center;"></div>
+  <div style="text-align: center;">Check below for a quick rundown of the site!</div>
 </div>
 
 
