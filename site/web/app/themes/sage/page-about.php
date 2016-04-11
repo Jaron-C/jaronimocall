@@ -18,7 +18,6 @@
 
 
 <!-- Top Text-->
-
 <div class="about-copy text-center">
   <div style="text-align: center;"><strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
   <div style="text-align: center;">Creative for <strong>Jackalope Media</strong>.</div>
