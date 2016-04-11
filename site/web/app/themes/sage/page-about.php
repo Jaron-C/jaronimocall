@@ -30,7 +30,7 @@
 
 <!-- Bottom Text -->
 <div class="about-copy-2">
-  <div style="text-align: center;">Check below for a quick rundown of the site!</div>
+  <div style="text-align: center;">See below for a breakdown of the site!</div>
 </div>
 
 
