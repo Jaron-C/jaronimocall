@@ -96,7 +96,7 @@ function display_sidebar() {
   add_filter('sage/display_sidebar', __NAMESPACE__ . 'sage_sidebar_on_special_page');
 
 function sage_sidebar_on_special_page($sidebar) {
-  if (is_front_page('blog-page')) {
+  if (is_front_page('template-blog')) {
     return true;
   }
   return $sidebar;

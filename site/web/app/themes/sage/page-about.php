@@ -22,8 +22,8 @@
   <div style="text-align: center;"><strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
   <div style="text-align: center;">Creative for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
-   <div>Co-Founder of local Utah Organization <strong>Brake The Cycle</strong>,</div>
-   <div>which is in support of suicide prevention.</div>
+   <div>Co-Founder of <strong>Brake The Cycle</strong>. A local Utah Organization,</div>
+   <div>in support of suicide prevention.</div>
   </div>
 </div>
 
