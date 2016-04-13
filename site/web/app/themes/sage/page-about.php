@@ -21,7 +21,7 @@
 <div class="about-copy text-center">
   <div style="text-align: center;">I am a <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
   <div style="text-aling: center;">As a Freelancer, i've worked with a variety of companies.</div>
-  <div style="text-aling: center;">Ranging from <strong>Adobe </strong>to start-ups and Youtubers</div>
+  <div style="text-aling: center;">Ranging from <strong>Adobe </strong>to start-ups and Youtubers.</div>
   <div style="text-align: center;">I also do <strong>Creative Design</strong> for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
    <div>And the Co-Founder of <strong>Brake The Cycle</strong>. A local Utah Organization,</div>
@@ -36,6 +36,7 @@
 </div>
 <!-- Add pricing.svg here -->
 
+<div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
 
 <!-- Bottom Text -->
 <div class="about-copy-2">
@@ -49,5 +50,3 @@
     <svg class="about-rundown img-responsive" width="705" height="726"><?php get_template_part( 'assets/svg/inline', 'about-rundown.svg' ); ?></svg>
 </div>
 </div>
-
-<div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
