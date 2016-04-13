@@ -34,7 +34,9 @@
   <div style="text-align: center;">In need of an animation?</div>
   <div style="text-align: center; font-size: 20px;"><em>Check out my amazing prices below!</em></div>
 </div>
+
 <!-- Add pricing.svg here -->
+
 
 <div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
 
@@ -46,7 +48,7 @@
 
 <!-- about-rundown svg -->
 <div class="container text-center">
-<div class="about-rundown">
+  <div class="about-rundown">
     <svg class="about-rundown img-responsive" width="705" height="726"><?php get_template_part( 'assets/svg/inline', 'about-rundown.svg' ); ?></svg>
-</div>
+  </div>
 </div>
