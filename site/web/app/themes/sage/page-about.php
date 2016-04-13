@@ -41,14 +41,15 @@
 <div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
 
 <!-- Bottom Text -->
-<div class="about-copy-2">
+<!--<div class="about-copy-2">
   <div style="text-align: center;">See below for a breakdown of the site!</div>
-</div>
+</div>-->
 
 
 <!-- about-rundown svg -->
-<div class="container text-center">
+<!--<div class="container text-center">
   <div class="about-rundown">
     <svg class="about-rundown img-responsive" width="705" height="726"><?php get_template_part( 'assets/svg/inline', 'about-rundown.svg' ); ?></svg>
   </div>
 </div>
+-->
