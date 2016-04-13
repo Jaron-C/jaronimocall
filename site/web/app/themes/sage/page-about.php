@@ -12,20 +12,30 @@
     <div style="text-align: center;"><strong>Jaron Call</strong></div>
   </div>
   <div class="info">
-    <div style="text-align: center;">Creator of jaronimocall.com</div>
-  </div>
+    <!--<div style="text-align: center;">Creator of jaronimocall.com</div>
+  </div>-->
 </div>
 
 
 <!-- Top Text-->
 <div class="about-copy text-center">
-  <div style="text-align: center;"><strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
-  <div style="text-align: center;">Creative for <strong>Jackalope Media</strong>.</div>
+  <div style="text-align: center;">I am a <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
+  <div style="text-aling: center;">As a Freelancer, i've worked with a variety of companies.</div>
+  <div style="text-aling: center;">Ranging from <strong>Adobe </strong>to start-ups and Youtubers</div>
+  <div style="text-align: center;">I also do <strong>Creative Design</strong> for <strong>Jackalope Media</strong>.</div>
   <div style="text-align: center;">
-   <div>Co-Founder of <strong>Brake The Cycle</strong>. A local Utah Organization,</div>
+   <div>And the Co-Founder of <strong>Brake The Cycle</strong>. A local Utah Organization,</div>
    <div>in support of suicide prevention.</div>
   </div>
 </div>
+
+<!-- Bottom Text -->
+<div class="about-copy-2">
+  <div style="text-align: center;">In need of an animation?</div>
+  <div style="text-align: center; font-size: 20px;"><em>Check out my amazing prices below!</em></div>
+</div>
+<!-- Add pricing.svg here -->
+
 
 <!-- Bottom Text -->
 <div class="about-copy-2">
