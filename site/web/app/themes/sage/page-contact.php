@@ -32,9 +32,9 @@
   <h4 class="col-xs-12">For project inquiries, please fill out the form below!</h4>
 </div>
 
-<div class="gravity-form text-center">
-<?php gravity_form( 1, false, false, false, '', false ); ?>
-</div>
+
+<div class="contact-form text-center"><?php gravity_form( 2, false, true, false, true); ?></div>
+
 
 <div class="brands text-center">
   <div class="companies center-block">
