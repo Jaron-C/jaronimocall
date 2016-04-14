@@ -30,7 +30,11 @@
     {
       "type": "composer",
       "url": "http://wpackagist.org"
-    }
+    },
+    {
+          "type": "vcs",
+          "url": "git@github.com:masoninthesis/gravityforms.git"
+        }
   ],
   "require": {
     "php": ">=5.5",
@@ -38,7 +42,8 @@
     "vlucas/phpdotenv": "^2.0.1",
     "johnpbloch/wordpress": "4.4.2",
     "oscarotero/env": "^1.0",
-    "roots/soil": "3.5.0"
+    "roots/soil": "3.5.0",
+    "masoninthesis/gravityforms": "dev-master"
   },
   "extra": {
     "installer-paths": {

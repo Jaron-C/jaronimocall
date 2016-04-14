@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "432f608381d682848d84266f357ad0d5",
-    "content-hash": "59704794ded32446b9d0568b3b48c695",
+    "hash": "30ea8709f602716093870c6c7d7f3e24",
+    "content-hash": "edf7f41c00f23109a6b647a6bcf5298e",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.23",
+            "version": "v1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
-                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
                 "shasum": ""
             },
             "require": {
@@ -40,8 +40,8 @@
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -56,12 +56,14 @@
                 }
             ],
             "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
+            "homepage": "https://composer.github.io/installers/",
             "keywords": [
                 "Craft",
                 "Dolibarr",
                 "Hurad",
+                "ImageCMS",
                 "MODX Evo",
+                "Mautic",
                 "OXID",
                 "SMF",
                 "Thelia",
@@ -103,7 +105,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2016-01-27 12:54:22"
+            "time": "2016-04-13 19:46:30"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -189,6 +191,38 @@
                 "wordpress"
             ],
             "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "masoninthesis/gravityforms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/masoninthesis/gravityforms.git",
+                "reference": "7f936888281db403c3c73b04b60c4e6935524a3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/masoninthesis/gravityforms/zipball/7f936888281db403c3c73b04b60c4e6935524a3e",
+                "reference": "7f936888281db403c3c73b04b60c4e6935524a3e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3"
+            },
+            "type": "wordpress-plugin",
+            "extra": {
+                "installer-name": "gravityforms"
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Fork of GravityForms repo so we can use it in our composer architecture.",
+            "support": {
+                "source": "https://github.com/masoninthesis/gravityforms/tree/master",
+                "issues": "https://github.com/masoninthesis/gravityforms/issues"
+            },
+            "time": "2016-03-03 01:58:13"
         },
         {
             "name": "oscarotero/env",
@@ -329,7 +363,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "masoninthesis/gravityforms": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
