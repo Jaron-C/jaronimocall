@@ -19,20 +19,20 @@
 
 <!-- Top Text-->
 <div class="about-copy text-center">
-  <div style="text-align: center;">I am a <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</strong></div>
-  <div style="text-aling: center;">As a Freelancer, i've worked with a variety of companies.</div>
-  <div style="text-aling: center;">Ranging from <strong>Adobe </strong>to start-ups and Youtubers.</div>
-  <div style="text-align: center;">I also do <strong>Creative Design</strong> for <strong>Jackalope Media</strong>.</div>
+  <div style="text-align: center;"><em>"I am a <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</em></strong></div>
+  <div style="text-aling: center;"><em>As a Freelancer, i've worked with a variety of companies.</em></div>
+  <div style="text-aling: center;"><em>Ranging from <strong>Adobe </strong>to start-ups and Youtubers.</em></div>
+  <div style="text-align: center;"><em>I also do <strong>Creative Design</strong> for <strong>Jackalope Media</strong>.</em></div>
   <div style="text-align: center;">
-   <div>And the Co-Founder of <strong>Brake The Cycle</strong>. A local Utah Organization,</div>
-   <div>in support of suicide prevention.</div>
+   <div><em>And am the Co-Founder of <strong>Brake The Cycle</strong>. A local Utah Organization,</em></div>
+   <div><em>in support of suicide prevention".</em></div>
   </div>
 </div>
 
 <!-- Bottom Text -->
 <div class="about-copy-2">
   <div style="text-align: center;">In need of an animation?</div>
-  <div style="text-align: center; font-size: 20px;"><em>Check out my amazing prices below!</em></div>
+  <div style="text-align: center; font-size: 20px;"><em>Check out my unbeatable prices below!</em></div>
 </div>
 
 <!-- Add pricing.svg here -->
