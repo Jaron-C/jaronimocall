@@ -31,7 +31,7 @@
 </div>
 <!-- Price Sheet Text -->
 <div class="about-copy-2">
-  <div style="text-align: center;">In need of an Animation Video?</div>
+  <div style="text-align: center;">In need of an Animated Video?</div>
   <div style="text-align: center; font-size: 20px;"><em>Take a look at my unbeatable prices below!</em></div>
 </div>
 
@@ -40,5 +40,13 @@
   <svg class="pricing img-responsive" width="626" height="420"><?php get_template_part( 'assets/svg/inline', 'pricing.svg' ); ?></svg>
 </div>
 
+
+<div class="about-copy-3">
+  <div style="text-align: center;">Check out my Projects Page for examples!</div>
+  <div style="text-align: center; font-size: 20px;"><em>Animations, Vlogs, Social Videos and more!</em></div>
+</div>
+
 <!-- Bottom Text -->
-<div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
+<div class="about-inquire">
+<div style="text-align: center;"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
+</div>
