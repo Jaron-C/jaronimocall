@@ -10,11 +10,10 @@
 
 <!-- Add Praise Text -->
 <div class="praise-text">
-  <div style="text-align: center;">See what others are saying!</div>
-  <!-- <div style="text-align: center; font-size: 20px;"><em>Take a look at my unbeatable prices below!</em></div> -->
+  <div style="text-align: center;">See what previous clients had to say!</div>
 </div>
 
 <!-- praises.svg -->
 <div class="praises text-center">
-  <svg class="praises img-responsive" width="670" height="316"><?php get_template_part( 'assets/svg/inline', 'praises.svg' ); ?></svg>
+  <svg class="praises img-responsive" width="770" height="416"><?php get_template_part( 'assets/svg/inline', 'praises.svg' ); ?></svg>
 </div>
