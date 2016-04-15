@@ -16,6 +16,7 @@
     <p style="text-center"><strong>Instagram: </strong><em>@jaroninthesis</em></p>
     <p style="text-center"><strong>Twitter: </strong><em>@JaronimoCall</em>
   </div>
+
 <!-- Work Contact -->
   <div class="col-xs-12 col-md-6"><h3 style="text-align: center; 16px;">Work Contact</h3>
     &nbsp;
@@ -24,6 +25,8 @@
   </div>
 </div>
 </div>
+
+<!-- Availability Hours -->
 <div class="hours text-center">
   <p>Available 9am-6pm on weekdays</p>
 
@@ -32,10 +35,12 @@
   <h4 class="col-xs-12">For project inquiries, please fill out the form below!</h4>
 </div>
 
+<!-- Gravity Form -->
+<div class="contact-form text-center">
+  <div class="contact-form"><?php gravity_form( 2, false, true, false, true); ?></div>
+</div>
 
-<div class="contact-form text-center"><?php gravity_form( 2, false, true, false, true); ?></div>
-
-
+<!-- Brand Logos -->
 <div class="brands text-center">
   <div class="companies center-block">
     <svg class="companies" width="236" height="68"><?php get_template_part( 'assets/svg/inline', 'companies.svg' ); ?></svg>
