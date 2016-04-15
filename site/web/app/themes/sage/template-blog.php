@@ -9,11 +9,11 @@
 <?php endwhile; ?>-->
 
 <div class="container text-center">
-  <h2 class="intro">Blog</h2>
+  <h2 class="blog-intro">Blog</h2>
 </div>
 
 <div class="blog-info text-center">
-  <h4>Everything from tutorials, project blueprints and notes!</h4>
+  <h4>Everything from tutorials, project blueprints and more!</h4>
 </div>
 
 <!-- Featured Category -->

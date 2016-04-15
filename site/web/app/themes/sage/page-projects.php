@@ -3,6 +3,15 @@
   <?php get_template_part('templates/content', 'page'); ?>
 <?php endwhile; ?>-->
 
+<div class="container text-center">
+  <h2 class="project-intro">Projects</h2>
+</div>
+
+<div class="project-info text-center">
+  <h4>This page contains projects i've worked on and some of my lifestyle videos as well!</h4>
+</div>
+
+
 <div class="row">
 <!-- Left Side -->
   <div class="col-md-6">

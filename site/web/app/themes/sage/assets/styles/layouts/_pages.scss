@@ -39,6 +39,7 @@
   font-family: Roboto-Regular;
   color: #353535;
   }
+
 /* Pricing Sheet */
 /* Price Sheet Text */
   .about-copy-2 {
@@ -68,6 +69,13 @@
   }
 
 /* PROJECT PAGE */
+/* Intro Text */
+  .project-intro {
+    font-size: 35px;
+    color: #6da2a3;
+    font-family: Roboto-Light;
+  }
+
 /* Videos */
   .category-1 {
     margin-top: 50px;
@@ -91,18 +99,18 @@
 
 /* Project Inquiry Text */
   .project-inquire {
-    margin-top: 10px;
+    margin-top: 20px;
     letter-spacing: 0.20px;
   }
 
 /* BLOG PAGE */
-/* Featured Category */
-  .intro {
+/* Intro Text */
+  .blog-intro {
     font-size: 35px;
     color: #6da2a3;
     font-family: Roboto-Light;
   }
-
+/* Featured Category */
   .row {
     margin-top: 30px;
   }
