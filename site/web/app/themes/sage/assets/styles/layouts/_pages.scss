@@ -136,7 +136,30 @@
     margin-bottom: 0px;
   }
 
-/* GRAVITY FORMS */
-/* GF's are on section1 and Contact page */
+/* GRAVITY FORM */
+/* Titles */
 
-  
+  .gform_wrapper {
+    margin: 0 0px 0 284px;
+    max-width: 42%;
+  }
+
+  .gform_field {
+    margin-top: 10px;
+  }
+
+  .gfield_label {
+    letter-spacing: 0.50em;
+  }
+
+  .gform_footer {
+    color: #fff;
+  }
+  .gform_button {
+    background-color: #6da2a3;
+    border: 1px solid transparent;
+    padding: 10px 148px;
+  }
+
+
+/* Button */
