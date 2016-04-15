@@ -5,17 +5,18 @@
 
 <!-- personal.jpg -->
 <div class="row text-center">
-  <div class="col-xs-6 col-md-6">
+  <div class="col-md-6">
     <div class="photo">
       <img src="<?=get_stylesheet_directory_uri();?>/dist/images/personal.jpg">
     </div>
+<!-- Name -->
     <div class="name">
       <div style="text-align: center;"><strong>Jaron Call</strong></div>
     </div>
   </div>
 
 <!-- Description Text -->
-  <div class="col-xs-6 col-md-6">
+  <div class="col-md-6">
     <div class="about-copy text-center">
       <div style="text-align: center;"><em>"I am a <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</em></strong></div>
       <div style="text-aling: center;"><em>As a Freelancer, i've worked with a variety of companies.</em></div>
@@ -30,8 +31,8 @@
 </div>
 <!-- Price Sheet Text -->
 <div class="about-copy-2">
-  <div style="text-align: center;">In need of an animation?</div>
-  <div style="text-align: center; font-size: 20px;"><em>Check out my unbeatable prices below!</em></div>
+  <div style="text-align: center;">In need of an Animation Video?</div>
+  <div style="text-align: center; font-size: 20px;"><em>Take a look at my unbeatable prices below!</em></div>
 </div>
 
 <!-- pricing.svg  -->
