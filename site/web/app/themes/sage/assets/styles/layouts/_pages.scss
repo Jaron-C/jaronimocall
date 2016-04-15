@@ -21,6 +21,26 @@
     }
   }
 
+/* Praise Section */
+  .praise-text {
+    margin-top: 40px;
+    font-family: Roboto-Regular;
+    font-size: 25px;
+    color: #6da2a3;
+  }
+/* praises.svg */
+  .praises {
+    svg {
+      margin: auto;
+      padding: 0 24px;
+      @media (min-width: $screen-sm-min) {
+        padding: 0;
+      }
+    }
+  }
+
+
+
 /*  ABOUT PAGE */
 /* Image/Name/Description */
   .photo {
