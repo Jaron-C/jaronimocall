@@ -31,4 +31,4 @@
   </div>
 </div>
 
-<div style="text-align: center;" class="about-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>
+<div style="text-align: center;" class="project-inquire"><h4>For project inquiries, please fill out the form on the Contact Page</h4></div>

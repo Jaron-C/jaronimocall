@@ -22,9 +22,9 @@
   }
 
 /*  ABOUT PAGE */
-/* Top Text */
+/* Image/Name/Description */
   .photo {
-    margin-top: 10px;
+    margin-top: 20px;
   }
 
   .name {
@@ -32,21 +32,15 @@
     letter-spacing: .60em;
   }
 
-  .info {
-    font-size: 12px;
-    margin-top: 2px;
-    letter-spacing: .10em;
-  }
-
   .about-copy {
-  margin-top: 30px;
+  margin-top: 20px;
   line-height: 2.0em;
-  font-size: 16px;
+  font-size: 14px;
   font-family: Roboto-Regular;
   color: #353535;
   }
-
-/* Bottom Text */
+/* Pricing Sheet */
+/* Price Sheet Text */
   .about-copy-2 {
     margin-top: 50px;
     line-height: 1.4em;
@@ -55,25 +49,22 @@
     color: #6da2a3;
   }
 
-/* Rundown svg */
-  .st0 {
-    fill:#353535
-  }
-
-  .about-rundown {
-    margin-top: 50px;
-  }
-
+/* pricing svg */
+  .pricing {
+    margin-top: -15px;
   svg {
     margin: auto;
     padding: 0px;
     @media (min-width: $screen-sm-min) {
       padding: 0;
+    }
   }
 }
 
+/* Project Inquiry Text */
   .about-inquire {
-    margin-top: 50px;
+    margin-top: 10px;
+    letter-spacing: 0.20px;
   }
 
 /* PROJECT PAGE */
@@ -96,6 +87,12 @@
 
   .wistia_playlist {
     margin-top: 20px;
+  }
+
+/* Project Inquiry Text */
+  .project-inquire {
+    margin-top: 10px;
+    letter-spacing: 0.20px;
   }
 
 /* BLOG PAGE */
