@@ -153,25 +153,35 @@
 /* Titles */
 
   .gform_wrapper {
-    margin: 0 0px 0 284px;
-    max-width: 42%;
+    text-align: center;
+    max-width: 98%;
   }
 
   .gform_field {
     margin-top: 10px;
   }
-
+/* Name Field */
+  .name {
+    text-align: center;
+  }
+/* Email Field */
+  .email {
+    text-align: center;
+  }
+/* Both Field labels */
   .gfield_label {
     letter-spacing: 0.50em;
   }
 
   .gform_footer {
     color: #fff;
+    text-align: center;
+    letter-spacing: .60em;
   }
   .gform_button {
     background-color: #6da2a3;
     border: 1px solid transparent;
-    padding: 10px 148px;
+    padding: 10px 176px;
   }
 
 
