@@ -8,7 +8,7 @@
 </div>
 
 <div class="project-info text-center">
-  <h4>This page contains projects i've worked on and some of my lifestyle videos as well!</h4>
+  <h4>Intro/Logo Animations, Commercials, Workflow Timelapse, Vlogs and more!</h4>
 </div>
 
 
