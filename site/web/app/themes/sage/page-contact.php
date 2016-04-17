@@ -40,6 +40,10 @@
   <div class="contact-form"><?php gravity_form( 2, false, true, false, true); ?></div>
 </div>
 
+<!-- Security Reminder -->
+<h5 class="privacy text-center">I guaruntee 100% privacy. your information will not be shared.</h5>
+
+
 <!-- Brand Logos -->
 <div class="brands text-center">
   <div class="companies center-block">

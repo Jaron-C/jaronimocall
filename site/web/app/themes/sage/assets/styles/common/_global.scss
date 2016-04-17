@@ -36,6 +36,11 @@ h4 {
   color: #353535;
 }
 
+h5 {
+  font-family: Roboto-Light;
+  color: #353535;
+}
+
 p {
   font-weight: 400;
   font-size: 16px;
@@ -58,6 +63,7 @@ strong {
 
 /* Text on About Page/Blog Posts */
 .main {
+  margin-top: 0px;
   line-height: 1.5em;
   font-family: Roboto-Regular;
   color: #353535;
