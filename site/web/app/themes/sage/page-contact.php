@@ -41,7 +41,7 @@
 </div>
 
 <!-- Security Reminder -->
-<h5 class="privacy text-center">I guaruntee 100% privacy. your information will not be shared.</h5>
+<h5 class="privacy text-center">I guaruntee 100% privacy. Your information will not be shared.</h5>
 
 
 <!-- Brand Logos -->
