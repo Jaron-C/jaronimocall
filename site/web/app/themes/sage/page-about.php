@@ -32,7 +32,7 @@
 <!-- Price Sheet Text -->
 <div class="about-copy-2">
   <div style="text-align: center;">In need of an Animated Video?</div>
-  <div style="text-align: center; font-size: 20px;"><em>Take a look at my unbeatable prices below!</em></div>
+  <div style="text-align: center; font-size: 20px;"><em>Take a look at my competitive prices below!</em></div>
 </div>
 
 <!-- pricing.svg  -->

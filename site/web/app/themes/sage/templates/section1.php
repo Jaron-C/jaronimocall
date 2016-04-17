@@ -10,7 +10,7 @@
 
 <!-- Add Praise Text -->
 <div class="praise-text">
-  <div style="text-align: center;">See what previous clients had to say!</div>
+  <div style="text-align: center;">See what a few clients had to say!</div>
 </div>
 
 <!-- praises.svg -->
