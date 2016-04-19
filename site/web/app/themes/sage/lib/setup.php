@@ -85,17 +85,17 @@ function display_sidebar() {
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
     is_front_page(),
-    is_page_template('template-projects.php'),
+    is_page(),
     is_single(),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
 
 // Sidebar display filter for Blog Page
-  add_filter('sage/display_sidebar', __NAMESPACE__ . 'sage_sidebar_on_special_page');
+add_filter('sage/display_sidebar', __NAMESPACE__ . 'sage_sidebar_on_special_page');
 
 function sage_sidebar_on_special_page($sidebar) {
-  if (is_front_page('template-blog')) {
+  if (is_page('template-blog')) {
     return true;
   }
   return $sidebar;
