@@ -18,7 +18,7 @@
 <!-- Description Text -->
   <div class="col-md-6">
     <div class="about-copy text-center">
-      <div style="text-align: center;"><em>"I am a <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</em></strong></div>
+      <div style="text-align: center;"><em>"A <strong>Motion Graphics Artist</strong> and <strong>Website Designer.</em></strong></div>
       <div style="text-aling: center;"><em>As a Freelancer, i've worked with a variety of companies.</em></div>
       <div style="text-aling: center;"><em>Ranging from <strong>Adobe Systems </strong>to small start-ups.</em></div>
       <div style="text-align: center;"><em>I also do <strong>Creative Design</strong> for <strong>Jackalope Media</strong>.</em></div>
