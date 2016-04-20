@@ -31,9 +31,7 @@
   <p>Available 9am-6pm on weekdays</p>
 
 <!-- GF Form Text -->
-<div class="row text-center">
-  <h4 class="col-xs-12">For project inquiries, please fill out the form below!</h4>
-</div>
+<h4 style="text-align: center;" class="contact-inquire">For project inquiries, please fill out the form below!</h4>
 
 <!-- Gravity Form -->
 <div class="contact-form text-center">
