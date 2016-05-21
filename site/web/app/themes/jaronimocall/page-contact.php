@@ -21,7 +21,7 @@
   <div class="col-xs-12 col-md-6"><h3 style="text-align: center; 16px;">Work Contact</h3>
     &nbsp;
     <p style="text-style"><strong>Email: </strong><em>jaroninthesis@gmail.com</em></p>
-    <p style="text-style"><strong>Phone: </strong><em>"Request via email"</em></p>
+    <p style="text-style"><strong>Phone: </strong><em>(801) 540-0648</em></p>
   </div>
 </div>
 </div>

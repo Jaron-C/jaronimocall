@@ -1,0 +1,220 @@
+/* Contains about-list, video & praises */
+#section1 {
+  margin-top: 5px;
+  .st0 {
+    fill:#6da2a3
+  }
+  .st1{
+    fill: #353535;
+  }
+  .about-list {
+    svg {
+      margin: auto;
+      padding: 0 24px;
+      @media (min-width: $screen-sm-min) {
+        padding: 0;
+      }
+    }
+  }
+  .video {
+    margin-top: 50px;
+    }
+  }
+
+/* Praise Section */
+  .praise-text {
+    margin-top: 50px;
+    font-family: Roboto-Light;
+    font-size: 40px;
+    color: #6da2a3;
+  }
+
+/* praises.svg */
+  .praises {
+    margin-top: 0px;
+    svg {
+      margin: auto;
+      padding: 0 24px;
+      @media (min-width: $screen-sm-min) {
+        padding: 0;
+      }
+    }
+  }
+
+
+/*  ABOUT PAGE */
+/* Image/Name/Description */
+  .photo {
+    margin-top: 20px;
+  }
+
+  .name {
+    margin-top: 10px;
+    letter-spacing: .60em;
+  }
+
+  .about-copy {
+  margin-top: 20px;
+  line-height: 2.0em;
+  font-size: 15px;
+  font-family: Roboto-Regular;
+  color: #353535;
+  }
+
+/* Pricing Sheet */
+/* Price Sheet Text */
+  .about-copy-2 {
+    margin-top: 80px;
+    line-height: 1.2em;
+    font-size: 30px;
+    font-family: Roboto-Light;
+    color: #6da2a3;
+  }
+
+/* pricing svg */
+  .pricing {
+    margin-top: -15px;
+  svg {
+    margin: auto;
+    padding: 0px;
+    @media (min-width: $screen-sm-min) {
+      padding: 0;
+    }
+  }
+}
+
+/* Projects CTA */
+  .about-copy-3 {
+    margin-top: -10px;
+    line-height: 1.2em;
+    font-size: 20px;
+    font-family: Roboto-Light;
+    color: #6da2a3;
+  em {
+    font-size: 16px;
+    }
+  }
+
+/* Project Inquiry Text */
+  .about-inquire {
+    margin-top: 30px;
+    letter-spacing: 0.20px;
+  }
+
+/* PROJECT PAGE */
+/* Intro Text */
+  .project-intro {
+    font-size: 35px;
+    color: #6da2a3;
+    font-family: Roboto-Light;
+  }
+
+/* Videos */
+  .category-1 {
+    margin-top: 50px;
+  }
+
+  .category-2 {
+    margin-top: 50px;
+  }
+
+  .category-3 {
+    margin-top: 50px;
+  }
+
+  .category-4 {
+    margin-top: 50px;
+  }
+
+  .wistia_playlist {
+    margin-top: 20px;
+  }
+
+/* Project Inquiry Text */
+  .project-inquire {
+    margin-top: 40px;
+    letter-spacing: 0.20px;
+  }
+
+/* BLOG PAGE */
+/* Intro Text */
+  .blog-intro {
+    font-size: 35px;
+    color: #6da2a3;
+    font-family: Roboto-Light;
+  }
+/* Featured Category */
+  .row {
+    margin-top: 30px;
+  }
+
+  .thumbnail {
+    margin-bottom: 0px;
+    border: #fff;
+    background-color: #fff;
+}
+
+  .p {
+    display: none;
+  }
+
+/* CONTACT PAGE */
+/* (place GF here) */
+
+  .contact-info {
+    margin-top: 20px;
+  }
+
+  .hours {
+    margin-top: 20px;
+  }
+
+  .contact-inquire {
+    margin-top: 40px;
+    letter-spacing: 0.20px;
+  }
+
+  .companies {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+/* GRAVITY FORM */
+/* Titles */
+
+  .gform_wrapper {
+    margin-top: 20px;
+    text-align: center;
+    max-width: 98%;
+  }
+
+  .gform_field {
+    margin-top: 10px;
+  }
+/* Name Field */
+  .name {
+    text-align: center;
+  }
+/* Email Field */
+  .email {
+    text-align: center;
+    margin-top: 20px;
+  }
+/* Both Field labels */
+  .gfield_label {
+    letter-spacing: 0.50em;
+  }
+
+  .gform_footer {
+    color: #fff;
+    text-align: center;
+    letter-spacing: .60em;
+  }
+  .gform_button {
+    background-color: #6da2a3;
+    border: 1px solid transparent;
+    padding: 10px 176px;
+  }
+
+
+/* Button */

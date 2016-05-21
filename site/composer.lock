@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "432f608381d682848d84266f357ad0d5",
-    "content-hash": "59704794ded32446b9d0568b3b48c695",
+    "hash": "f305efa8b31654871f598dcd47f260ca",
+    "content-hash": "0fd17ee4b5517db459e2ebc5bb3919b6",
     "packages": [
         {
             "name": "composer/installers",
@@ -234,16 +234,16 @@
         },
         {
             "name": "roots/soil",
-            "version": "3.5.0",
+            "version": "3.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/soil.git",
-                "reference": "4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0"
+                "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/soil/zipball/4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0",
-                "reference": "4e9ad4562e1592c49f1f3a26c4dad1e00500c0c0",
+                "url": "https://api.github.com/repos/roots/soil/zipball/085fd3c9b16df5b72dce4fba09de0207937ef721",
+                "reference": "085fd3c9b16df5b72dce4fba09de0207937ef721",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
             "keywords": [
                 "wordpress"
             ],
-            "time": "2015-09-24 17:30:00"
+            "time": "2016-03-07 19:49:21"
         },
         {
             "name": "vlucas/phpdotenv",
